@@ -62,23 +62,17 @@ Linked List 是特殊化的 Tree。Tree 是特殊化的 Graph。
 
 二维数据结构。树与图的区别：有无环
 
-`public class TreeNode {`
-
- 	`   public int val;`   
-
- 	`   public TreeNode left, right;`   
-
- 	`public TreeNode(int val) {`   
-
-​	 	`this.val = val;`    
-
-​	 	`this.left = null;`    
-
-​	 	`this.right = null;`    
-
- 	`}`   
-
- `} `
+```java
+public class TreeNode {
+	public int val;
+	public TreeNode left, right;
+	public TreeNode(int val) {
+        this.val = val;
+        this.left = null;
+        this.right = null;
+	}
+}
+```
 
 ### 二叉树
 
@@ -96,7 +90,7 @@ Linked List 是特殊化的 Tree。Tree 是特殊化的 Graph。
 
 二叉搜索树，也称二叉搜索树、有序二叉树（Ordered Binary Tree）、 排序二叉树（Sorted Binary Tree），
 
-是指一棵空树或者具有下列性质的 二叉树： 
+是指一棵空树或者具有下列性质的二叉树： 
 
  	1. 左子树上所有结点的值均小于它的根结点的值。
  	2. 右子树上所有结点的值均大于它的根结点的值。
